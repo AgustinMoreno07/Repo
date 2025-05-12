@@ -1,0 +1,116 @@
+:root {
+    --color-uno: #034694;
+    --color-dos: #ee242c;
+    --color-tres: #dba111;
+    --color-cuatro: #fff;
+    --color-cinco: #000;
+    --color-seis: #6a7ab5;
+}
+body{
+    font-family: sans-serif, tahoma;
+    margin: 0;
+    background: var(--color-uno);
+}
+h1{
+    text-align: center;
+    padding: 30px;
+    background: var(--color-uno);
+    color: var(--color-cuatro);
+    margin: 0;
+    font-size: 40px;
+}
+nav {
+    margin: 0;
+    padding: 20px;
+    background: var(--color-dos);
+    font-size: 20px;
+}
+a {
+    text-decoration: none;
+    color: var(--color-cuatro);
+}
+.lados {
+    display: flex;
+    justify-content: space-between; /*separa elementos a lados opuestos*/
+}
+h2 {
+    margin: 0;
+    color: var(--color-dos);
+    font-size: 40px;
+    text-align: center;
+}
+.trofeo{
+    margin-top: 10px;
+}
+.goles {
+    color: var(--color-cuatro);
+    font-size: 30px;
+    align-items: center;
+}
+.Bio-contenido {
+    display: flex;
+    align-items: flex-start; /*alinea el texto con la foto de arriba*/
+    gap: 20px;
+    padding: 20px;
+    font-size: 22px;
+    color: var(--color-cuatro);
+}
+.Bio-foto{
+    margin-top: 20px;
+}
+.Lista-Goles {
+    text-align: center;
+    color: var(--color-cuatro);
+    font-size: 20px;
+
+}
+.copas-contenido {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    padding: 20px;
+}
+.copas-fotos {
+    background-color: var(--color-seis);
+    border-radius: 10px;
+    padding: 15px;
+    width: 300px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+.copas-fotos img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    transition: transform 0.3s ease; 
+}
+.copas-fotos img:hover {
+    transform: scale(1.05)
+}
+h4 {
+    margin: 10px 0 5px 0;
+    color: var(--color-dos);
+    font-size: 20px;
+}
+p {
+    color: var(--color-cuatro);
+}
+footer {
+    background-color: var(--color-dos);
+    color: var(--color-cuatro);
+    text-align: center;
+    padding: 15px;
+    margin-top: 30px;
+    font-size: 20px;
+}
+.highlight {
+    display: flex;
+    justify-content: center;
+}
+.mm {
+    margin-bottom: 10px;
+}
+.centrarlink {
+    text-align: center;
+    font-size: 35px;
+    color: var(--color-cuatro);
+}
