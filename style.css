@@ -11,13 +11,13 @@ body{
     font-family: sans-serif 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 body ::before{
-    content: url(imagenes/Estadio.jfif);
+    content: url(Imagenes/Estadio.jfif);
     position: fixed;
     top:0;
     left: 0;
     width: 100%;
     height: 100%;
-    background-image: url(imagenes/Estadio.jfif);
+    background-image: url(Imagenes/Estadio.jfif);
     background-size: cover;
     background-position: center;
     filter: blur(5px);
